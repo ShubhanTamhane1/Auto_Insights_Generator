@@ -48,8 +48,8 @@ from typing import Any
 
 import matplotlib.pyplot as plt
 
-from llm import InsightsNarrative
-from utils import fig_to_base64, get_logger
+from .llm import InsightsNarrative
+from .utils import fig_to_base64, get_logger
 
 logger = get_logger(__name__)
 

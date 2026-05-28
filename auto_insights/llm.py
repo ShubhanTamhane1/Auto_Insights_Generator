@@ -42,7 +42,7 @@ from typing import Any
 
 import anthropic
 
-from utils import get_logger, stats_to_llm_str
+from .utils import get_logger, stats_to_llm_str
 
 logger = get_logger(__name__)
 

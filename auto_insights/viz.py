@@ -49,7 +49,7 @@ with warnings.catch_warnings():
     warnings.simplefilter("ignore")
     import seaborn as sns
 
-from utils import (
+from auto_insights.utils import (
     ColType,
     count_outliers,
     get_logger,

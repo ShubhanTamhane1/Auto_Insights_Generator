@@ -53,7 +53,7 @@ import numpy as np
 import pandas as pd
 from scipy import stats as scipy_stats
 
-from utils import (
+from auto_insights.utils import (
     ColType,
     get_logger,
     safe_numeric_cols,
